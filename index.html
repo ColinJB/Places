@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type= "text/css">
+    <link href="css/styles.css" rel="stylesheet" type= "text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Places You've Been</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div id="beenTo" class="col-md-6">
+          <h2>Places You've Been:</h2>
+          <form id="formOne">
+            <div class="form-group">
+              <label for="new-place">Location:</label>
+              <input type="text" class="form-control" id="newLocation">
+            </div>
+            <div class="form-group">
+              <label for="state">State:</label>
+              <input type="text" class="form-control" id="newState">
+            </div>
+            <div class="form-group">
+              <label for="country">Country:</label>
+              <input type="text" class="form-control" id="newCountry">
+            </div>
+            <div class="form-group">
+              <label for="landmarks">Landmarks:</label>
+              <input type="text" class="form-control" id="newLandmarks">
+            </div>
+            <div class="form-group">
+              <label for="time">Time of year:</label>
+              <input type="text" class="form-control" id="newTime">
+            </div>
+            <button type="submit" name="button" class="btn btn-danger">Submit</button>
+          </form>
+          <h2>Visited:</h2>
+          <ul id="visited">
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div  id="showPlace">
+            <h2></h2>
+
+
+            <p>State:<span class="state"></span></p>
+            <p>Country:<span class="country"></span></p>
+            <p>Landmarks:<span class="landmarks"></span></p>
+            <p>Time of year:<span class="time"></span></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
